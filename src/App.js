@@ -20,6 +20,7 @@ function App() {
     console.log("Submitted!");
 
     socket.emit("chat message", message);
+    setMessage("")
   }
 
   useEffect(() => {
@@ -30,7 +31,6 @@ function App() {
 
   return (
     <div className="App">
-      <img className="App-logo" src={logo} alt="react logo" />
       <div className="App-messages">
         {messages.map((message, index) => (
           <div className="App-message" key={index}>
