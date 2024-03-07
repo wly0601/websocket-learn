@@ -1,7 +1,7 @@
 {
   "name": "binar-sme-chapter-08-topic-01-react-socketio",
   "version": "0.1.0",
-  "homepage": "https://wly0601.github.io/websocket-learn",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
